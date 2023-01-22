@@ -1,26 +1,26 @@
 basic:
-  name: Foo Bar
-  title: Backend Developer
+  name: Eric R Eastman
+  title: Computer Engineer
   avatar:
-    display: true
+    display: false
     path: profile.png
 
 contact:
-  location:
-  email: me@example.com
-  phone: +86-111-2222-3333
-  website: example.com
+  location: NYC
+  email: ereastman96@gmail.com
+  phone: 845-594-1521
+  website: eastmaner.com
   wechat:
   whatsapp:
   telegram:
-  github: github
+  github: github.com/uncomplete
   gitlab:
   bitbucket:
   googlescholar:
   researchgate:
-  linkedin:
+  linkedin: linkedin.com/in/ericreastman
   medium:
-  twitter: twitter
+  twitter:
   stackoverflow:
   quora:
   goodreads:
@@ -29,42 +29,47 @@ profile:
   display: true
   title: Profile
   details: |
-    It's your career profile, you can wirte markdown format text.
-    + First
-    + Second
-
-    ...
+   Results-oriented computer engineer interested in understanding problems, designing solutions, and iterating based on direct stakeholder interaction. Comfortable as both a leader and member of productive teams with experience working on bleeding-edge research projects, large-scale production systems, and customer-facing client interfaces. Contributed to projects including domain-specific language compilers, high-performance simulators, graphic and command-line UIs, and low-latency trading systems.
 
 experiences:
   display: true
-  title: Experiences
+  title: Experience
   items:
-    - role: Backend Developer
-      time: 2018.03 - 2019.03
-      company: Second Company
+    - role: Software Development Engineer
+      time: 2021.12 - present
+      company: Amazon Web Services
       tag:
-      location: Beijing
+      location: NYC
       details: |
-        Experience in this company:
-        + First
-        + Second
+        Designed, implemented, scaled, and maintained an SSH proxy service and client enabling up to 10k concurrent connections to access SSH-enabled resources as a member of the AWS Security organization. Implemented a supply-side service which accounted for over $20M per quarter as a part of the Amazon Ads team.
+        - Led design reviews, security reviews, and developer testing, performed code reviews, and mentored new engineers.
+        - Developed, deployed, and debugged production applications at scale using modern AWS tooling.
+        - Implemented and debugged core authn/z and encryption features as well as cross-platform packaging/updation on an OpenSSH-compliant client and service.
+        - Gathered requirements and designed solutions using domain-specific design patterns for services consisting primarily of React/Java/DynamoDB components.
 
-        ...
-
-    - role: Backend Developer
-      time: 2017.03 - 2018.03
-      company: First Company
-      tag: Remote, part-time
-      location: Beijing
+    - company: IBM Quantum
+      role: Software Engineer
+      time: 2018.7 - 2021.3
+      location: Yorktown, NY
       details: |
-        Experience in this company:
-        + First
-        + Second
+        Maintained core hardware abstraction layer code as a member of the backend Control Systems team. Designed and implemented applications with internal and external researchers as a member of the Applications team.
+        - Implemented custom language specification using LLVM, Pybind, CMake.
+        - Updated simulator code and documentation to C++11 and Doxygen, resp.
+        - Expanded front-end Qiskit simulator interface and transitioned it to Pybind.
+        - Developed an internal API and web-application for tracking experiment specifications and results.
 
-        ...
+    - company: IBM Systems
+      role: Co-Op Engineer
+      time:  Feb 2016 &mdash; Aug 2017
+      location: East Fishkill, NY
+      details: |
+        Worked with the Design-Technology Co-Optimization team on IBM's 14nm production rollout and early 7nm development. Designed and implemented VLSI-design-verification and defect-limited-yield modeling tools.
+        - Developed an internal design-verification tool (LBMCS) using Tcl, bash, and SVRF.
+        - Author and presenter of a conference paper and patent on LBMCS.
+        - Analyzed manufacturing defect data using defect-limited yield models.
 
 projects:
-  display: true
+  display: false
   title: Projects
   intro: |
     This is all the projects I'm involved in.
@@ -81,7 +86,7 @@ projects:
         Project Bar's detail, you can write markdown format text.
 
 skills:
-  display: true
+  display: false
   title: Skills
   details: |
     Here is my skills:
@@ -102,30 +107,15 @@ education:
   display: true
   title: Education
   items:
-    - university: Example University
-      time: 2015 - 2018
-      major: Machine Learning
-      degree: Master
+    - degree: Bachelor of Science
+      major: Computer and Systems Engineering
+      university: Rensselaer Polytechnic Institute 
+      time: 2014 - 2018
       details: |
-        Experience in this university:
-        + First
-        + Second
-
-        ...
-
-    - university: Example University
-      time: 2011 - 2015
-      major: Computer Science
-      degree: Bachelor
-      details: |
-        Experience in this university:
-        + First
-        + Second
-
-        ...
+        3.5 GPA, Complex Structures of Matter and 2-D Materials group, NCAA Soccer, Rensselaer Center for Open Source (RCOS).
 
 certificates:
-  display: true
+  display: false
   title: Certificates
   items:
     - name: Course Foo
@@ -141,7 +131,7 @@ certificates:
       details: |
 
 publications:
-  display: true
+  display: false
   title: Publications
   intro: |
     This is all the books I wrote.
@@ -157,14 +147,14 @@ publications:
       link:
 
 patents:
-  display: true
+  display: false
   title: Patents
   details: |
     This is all my patents.
     + 2020\. A patent name is here. CN123456, filed May 15, 2020, and issued July 20, 2020.
 
 languages:
-  display: true
+  display: false
   title: Languages
   items:
     - idiom: Chinese
@@ -173,7 +163,7 @@ languages:
       level: Professional
 
 interests:
-  display: true
+  display: false
   title: Interests
   items:
     - item: Reading
@@ -182,7 +172,7 @@ interests:
       link:
 
 evaluation:
-  display: true
+  display: false
   title: Self-evaluation
   details: |
     Here is my self evaluation.
@@ -192,7 +182,7 @@ evaluation:
     ...
 
 footer:
-  display: true
+  display: false
 
 close: >
   Sorry, my resume has been hidden.
