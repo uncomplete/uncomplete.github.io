@@ -15,5 +15,5 @@ date_format: "%Y-%m-%d"     # date format
 theme_color: "#1DA1F2"      # your favorite theme color
 allow_search_engines: true  # allow search engines indexing your resume
 analytics:
-  google:                   G-T3FS6NPCW7
-  cloudflare:               # your cloudflare analytics
+  google: G-T3FS6NPCW7
+# cloudflare:
