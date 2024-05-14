@@ -9,11 +9,28 @@ sass:
   style:    compressed
 
 # Custom
-lang: en                    # html lang
-open: true                  # open or close your site
+lang: en
+open: true                  # show or hide your resume
+description:
+open_graph:
+  enable: true                        # enable open graph meta tags
+  image: /assets/images/profile.png   # open graph image path
+
+# Style
+text_direction: ltr         # text direction, 'ltr' or 'rtl'
 date_format: "%Y-%m-%d"     # date format
 theme_color: "#1DA1F2"      # your favorite theme color
 allow_search_engines: true  # allow search engines indexing your resume
 analytics:
   google: G-T3FS6NPCW7
 # cloudflare:
+contact_delimiter: "·"      # contact delimiter, '·', '/' or '|'
+section_icon: true          # section title icon, true or false
+section_title: uppercase    # section title style, 'uppercase', 'lowercase', 'capitalize' or 'none'
+section_align: start        # section title align, 'start', 'end' or 'center'
+section_line: dashed        # section title line, 'solid', 'dashed' or 'none'
+section_background: false   # section title backound, 'true' or 'false'
+skill_level_icon: lightbulb # skill rate icon, 'heart', 'star', 'circle' or 'lightbulb'
+link_icon: true             # show link icon, 'true' or 'false'
+site_footer: true           # show site footer, 'true' or 'false'
+>>>>>>> upstream/master
