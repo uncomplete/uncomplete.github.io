@@ -2,7 +2,7 @@ basic:
   name: Eric R Eastman
   title: Computer Engineer
   avatar:
-    display: false
+    show: false
     path: profile.png
 
 contact:
@@ -29,11 +29,11 @@ profile:
   show: true
   order: 1
   title: Profile
-  details: |
+  description: |
    Results-oriented computer engineer interested in understanding problems, designing solutions, and iterating based on direct stakeholder interaction. Comfortable as both a leader and member of productive teams with experience working on bleeding-edge research projects, large-scale production systems, and customer-facing client interfaces. Contributed to projects including domain-specific language compilers, high-performance simulators, graphic and command-line UIs, and low-latency trading systems.
 
-experiences:
-  display: true
+experience:
+  show: true
   title: Experience
   items:
     - role: Software Development Engineer
@@ -41,7 +41,7 @@ experiences:
       company: Amazon Web Services
       tag:
       location: NYC
-      details: |
+      description: |
         Designed, implemented, scaled, and maintained an SSH proxy service and client enabling up to 10k concurrent connections to access SSH-enabled resources as a member of the AWS Security organization. Implemented a supply-side service which accounted for over $20M per quarter as a part of the Amazon Ads team.
         - Led design reviews, security reviews, and developer testing, performed code reviews, and mentored new engineers.
         - Developed, deployed, and debugged production applications at scale using modern AWS tooling.
@@ -52,7 +52,7 @@ experiences:
       role: Software Engineer
       time: 2018.7 - 2021.3
       location: Yorktown, NY
-      details: |
+      description: |
         Maintained core hardware abstraction layer code as a member of the backend Control Systems team. Designed and implemented applications with internal and external researchers as a member of the Applications team.
         - Implemented custom language specification using LLVM, Pybind, CMake.
         - Updated simulator code and documentation to C++11 and Doxygen, resp.
@@ -63,14 +63,14 @@ experiences:
       role: Co-Op Engineer
       time:  Feb 2016 &mdash; Aug 2017
       location: East Fishkill, NY
-      details: |
+      description: |
         Worked with the Design-Technology Co-Optimization team on IBM's 14nm production rollout and early 7nm development. Designed and implemented VLSI-design-verification and defect-limited-yield modeling tools.
         - Developed an internal design-verification tool (LBMCS) using Tcl, bash, and SVRF.
         - Author and presenter of a conference paper and patent on LBMCS.
         - Analyzed manufacturing defect data using defect-limited yield models.
 
-projects:
-  display: false
+project:
+  show: false
   title: Projects
   intro: |
     This is all the projects I'm involved in.
@@ -92,8 +92,8 @@ projects:
         + First
         + Second
 
-skills:
-  display: false
+skill:
+  show: false
   title: Skills
   description: |
     The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
@@ -158,14 +158,14 @@ education:
       details: |
         3.5 GPA, Complex Structures of Matter and 2-D Materials group, NCAA Soccer, Rensselaer Center for Open Source (RCOS).
 
-certificates:
-  display: false
+certificate:
+  show: false
   title: Certificates
   description: |
     The certificate section in a resume is a dedicated section where you can showcase any additional certifications or specialized training you have received. This section provides potential employers with a more complete picture of your skills and expertise, and can help you stand out from other candidates.
 
-publications:
-  display: false
+publication:
+  show: false
   title: Publications
   description: |
     The publication section in a resume is a dedicated section where you can showcase any publications that you have authored or contributed to. This section is particularly relevant for individuals in academic or research fields, but can also be relevant for individuals in other fields who have published articles or papers.
@@ -186,15 +186,15 @@ publications:
       conference: Foobar, 2019
       link:
 
-patents:
-  display: false
+patent:
+  show: false
   title: Patents
   details: |
     This is all my patents.
     + 2020\. A patent name is here. CN123456, filed May 15, 2020, and issued July 20, 2020.
 
-languages:
-  display: false
+language:
+  show: false
   title: Languages
   description: |
     The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
@@ -207,8 +207,8 @@ languages:
     - idiom: English
       level: Professional
 
-interests:
-  display: false
+interest:
+  show: false
   title: Interests
   description: |
     The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
@@ -224,7 +224,7 @@ interests:
       link:
 
 evaluation:
-  display: false
+  show: false
   title: Self-evaluation
   description: |
     The self-evaluation section in a resume is a section where you can evaluate and assess your own skills, strengths, and weaknesses. It is typically a short paragraph or bullet points at the end of your resume, which provides a personal perspective on your abilities and how they align with the requirements of the job.
@@ -232,10 +232,10 @@ evaluation:
     In this section, you can highlight your achievements, areas of expertise, and any unique qualities or experiences that set you apart from other candidates. You can also mention areas where you are looking to improve or gain further experience.
 
 footer:
-  display: false
+  show: false
 
 reference:
-  show: true
+  show: false
   order: 14
   title: References
   description: |
