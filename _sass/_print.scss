@@ -4,18 +4,14 @@
   }
 
   body {
-    font-size: 12pt !important;
+    padding: 0 !important;
+    font-size: 13px;
     background: $wrapper-color !important;
   }
 
-    body {
-        padding: 0 !important;
-        font-size: 13px;
-    }
-
-    p {
-        line-height: $base-line-height;
-    }
+  p {
+    line-height: $base-line-height;
+  }
 
   h1, h2, h3, h4, h5, h6, img {
     break-after: avoid !important;

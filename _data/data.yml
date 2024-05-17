@@ -34,12 +34,12 @@ profile:
 
 experience:
   show: true
+  order: 2
   title: Experience
   items:
     - role: Software Development Engineer
-      time: 2021.12 - present
+      date: 2021.12 - present
       company: Amazon Web Services
-      tag:
       location: NYC
       description: |
         Designed, implemented, scaled, and maintained an SSH proxy service and client enabling up to 10k concurrent connections to access SSH-enabled resources as a member of the AWS Security organization. Implemented a supply-side service which accounted for over $20M per quarter as a part of the Amazon Ads team.
@@ -50,7 +50,7 @@ experience:
 
     - company: IBM Quantum
       role: Software Engineer
-      time: 2018.7 - 2021.3
+      date: 2018.7 - 2021.3
       location: Yorktown, NY
       description: |
         Maintained core hardware abstraction layer code as a member of the backend Control Systems team. Designed and implemented applications with internal and external researchers as a member of the Applications team.
@@ -61,7 +61,7 @@ experience:
 
     - company: IBM Systems
       role: Co-Op Engineer
-      time:  Feb 2016 &mdash; Aug 2017
+      date:  2016.2 - 2017.8
       location: East Fishkill, NY
       description: |
         Worked with the Design-Technology Co-Optimization team on IBM's 14nm production rollout and early 7nm development. Designed and implemented VLSI-design-verification and defect-limited-yield modeling tools.
@@ -69,203 +69,14 @@ experience:
         - Author and presenter of a conference paper and patent on LBMCS.
         - Analyzed manufacturing defect data using defect-limited yield models.
 
-project:
-  show: false
-  title: Projects
-  intro: |
-    This is all the projects I'm involved in.
-
-  items:
-    - name: Foo
-      link: https://www.google.com
-      details: |
-        Project Foo's detail, you can write markdown format text.
-
-    - name: Bar
-      link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
-      role: Backend Developer
-      location: Beijing
-      description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
-
-skill:
-  show: false
-  title: Skills
-  description: |
-    The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
-
-    The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
-
-    When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
-
-    There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
-
-  items:
-    - name: Skill A
-      level: 5
-    - name: Skill B
-      level: 4
-    - name: Skill C
-      level: 3
-    - name: Skill D
-      level: 4
-    - name: Skill E
-      level: 3
-    - name: Skill F
-      level: 1
-    - name: Skill G
-      level: 4
-    - name: Skill H
-      level: 4
-    - name: Skill I
-      level: 3
-
-  groups:
-    - name: Group A Skills
-      item:
-        - Skill A
-        - Skill B
-        - Skill C
-        - Skill D
-    - name: Group B Skills
-      item:
-        - Skill E
-        - Skill F
-        - Skill G
-    - name: Group C Skills
-      item:
-        - Skill H
-        - Skill I
-
 education:
   show: true
-  order: 5
+  order: 3
   title: Education
-  description: |
-    The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
-
-    In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
-
   items:
     - degree: Bachelor of Science
       major: Computer and Systems Engineering
-      university: Rensselaer Polytechnic Institute 
-      time: 2014 - 2018
-      details: |
+      institution: Rensselaer Polytechnic Institute
+      date: 2014 - 2018
+      description: |
         3.5 GPA, Complex Structures of Matter and 2-D Materials group, NCAA Soccer, Rensselaer Center for Open Source (RCOS).
-
-certificate:
-  show: false
-  title: Certificates
-  description: |
-    The certificate section in a resume is a dedicated section where you can showcase any additional certifications or specialized training you have received. This section provides potential employers with a more complete picture of your skills and expertise, and can help you stand out from other candidates.
-
-publication:
-  show: false
-  title: Publications
-  description: |
-    The publication section in a resume is a dedicated section where you can showcase any publications that you have authored or contributed to. This section is particularly relevant for individuals in academic or research fields, but can also be relevant for individuals in other fields who have published articles or papers.
-
-    Publications can include academic journal articles, conference papers, book chapters, reports, or other written works. In this section, you should list the title of the publication, the names of any co-authors, the name of the publication or conference, the date of publication, and any other relevant details.
-
-    If you have a long list of publications, you may want to consider including only the most relevant or significant publications on your resume. Alternatively, you could create a separate publication list and provide it as a separate document, either in your application materials or upon request.
-
-    Including a publication section in your resume can help demonstrate your expertise and credibility in your field, and can help you stand out from other candidates. However, if you do not have any publications to list, it is not necessary to include this section in your resume.
-
-  items:
-    - title: Example Publication in Action
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link: '#'
-    - title: The Art of Example Publication
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link:
-
-patent:
-  show: false
-  title: Patents
-  details: |
-    This is all my patents.
-    + 2020\. A patent name is here. CN123456, filed May 15, 2020, and issued July 20, 2020.
-
-language:
-  show: false
-  title: Languages
-  description: |
-    The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
-
-    It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
-
-  items:
-    - idiom: Chinese
-      level: Native
-    - idiom: English
-      level: Professional
-
-interest:
-  show: false
-  title: Interests
-  description: |
-    The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
-
-    Including an interest section in your resume can be helpful if your interests are relevant to the job you are applying for, such as if you are applying for a job in a creative field and your hobbies include painting or writing. It can also be useful if you are applying for a job where teamwork or social skills are important, and you can mention interests that demonstrate those qualities.
-
-    However, it is important to be selective when including an interest section in your resume, and to choose interests that are appropriate and professional. Avoid including controversial or potentially offensive interests, and focus on interests that showcase your positive qualities and strengths.
-
-  items:
-    - item: Reading
-      link: '#'
-    - item: Cooking
-      link:
-
-evaluation:
-  show: false
-  title: Self-evaluation
-  description: |
-    The self-evaluation section in a resume is a section where you can evaluate and assess your own skills, strengths, and weaknesses. It is typically a short paragraph or bullet points at the end of your resume, which provides a personal perspective on your abilities and how they align with the requirements of the job.
-
-    In this section, you can highlight your achievements, areas of expertise, and any unique qualities or experiences that set you apart from other candidates. You can also mention areas where you are looking to improve or gain further experience.
-
-footer:
-  show: false
-
-reference:
-  show: false
-  order: 14
-  title: References
-  description: |
-    A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. These individuals are typically former managers, colleagues, or mentors who have worked closely with you in the past and can provide insight into your abilities and work style.
-
-    It's important to note that including a reference section in a resume is not always necessary, and some employers may prefer to request references separately. If you do choose to include a reference section, it should typically be located at the end of your resume.
-
-    When listing references, be sure to include the individual's name, job title, company name, phone number, and email address. It's also a good idea to ask for the individual's permission before listing them as a reference, and to let them know what kind of job you are applying for so they can speak to your relevant skills and experience.
-
-    It's important to choose references who can provide a positive and comprehensive evaluation of your work. Avoid listing family members or friends as references, and instead focus on individuals who can speak to your professional abilities and accomplishments.
-
-  items:
-    - name: Foo One
-      link: '#'
-      title: Backend Developer
-      institution: Second Company
-      address: 1234 Example St, XXX, XY 11111
-      email: foo.one@example.com
-      phone: 111-222-333
-      description: |
-        Foo One was my colleague in Second Company.
-
-    - name: Bar Two
-      link:
-      title: Professor
-      institution: Example University
-      address: 4321 Example St, YYY, XY 22222
-      email: bar.two@example.com
-      phone: 444-555-666
-      description: |
-        Bar Two was my advisor at Example University.
-
-close: <strong>Sorry, my resume has been hidden.</strong>
